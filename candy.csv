@@ -1,24 +1,32 @@
-name,price,gramm,kcal100g
-mentosfruit,50,38,388
-bounty,70,57,487
-riesenkaramell,50,29,411
-erdnuesse,70,50,622
-snickers,50,50,481
-pickup,50,28,511
-twix,70,50,493
-mars,70,51,449
-m&mspeanut,70,45,512
-goldbären,70,100,343
-milkyway,70,43,450
-duplo,30,18.2,555
-kitkat,70,41.5,521
-hanuta,70,44,542
-chipsfrisch,150,50,530
-mrtom,70,40,547
-fritt,50,70,393
-daim,70,28,530
-lion,70,60,483
-m&mscrispy,70,36,494
-kinderriegel,30,21,566
-nicnacs,50,40,540
-mentosmint,50,38,390
+name;price;gramm;kcal100g;productname
+mentosfruit;50;38;388;Mentos Fruit
+bounty;70;57;487;Bounty
+riesenkaramell;50;29;411;Riesen Karamell
+erdnuesse;70;50;619;Erdnüsse
+snickers;50;50;481;Snickers
+pickup;50;28;511;Pickup
+twix;70;50;493;Twix
+mars;70;51;449;Mars
+m&mspeanut;70;45;512;M&Ms Peanut
+goldbären;70;100;343;Goldbären
+milkyway;70;43;450;Milky Way
+duplo;30;18.2;555;Duplo
+kitkat;70;41.5;521;Kit Kat
+hanutadoppelt;70;44;542;Hanuta Doppelpack
+chipsfrisch;70;50;530;Chipsfrisch
+mrtom;70;40;547;Mr Tom
+fritt;50;70;393;Fritt
+daim;70;28;530;Daim
+lion;70;60;483;Lion
+m&mscrispy;70;36;494;M&Ms Crispy
+kinderriegel;30;21;566;Kinderriegel
+nicnacs;50;40;540;NicNacs
+mentosmint;50;38;390;Mentos Mint
+hanutariegel;50;34.5;542;Hanuta Riegel
+knoppersriegel;70;40;535;Knoppers Riegel
+m&msschoko;70;45;481;M&Ms Choco
+pickupbw;70;28;522;Pickup Black & White
+mentosspearmint;50;38;389;Mentos Spearmint
+mentoscola;50;37.5;389;Mentos Fresh Cola
+hanutaeinzel;30;22;542;Hanuta Einzelpack
+wunderbar;100;49;509;Wunderbar

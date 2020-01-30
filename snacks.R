@@ -1,7 +1,7 @@
 library(ggplot2)
 
 # Daten vorbereiten
-laborcandy <- data.frame(read.csv("candy.csv"))
+laborcandy <- data.frame(read.csv("candy.csv", sep=";"))
 
 # Neue Informationen aus vorhandenen Daten erstellen
 laborcandy$kcalportion <- laborcandy$kcal100g/(100/laborcandy$gramm)
@@ -32,7 +32,7 @@ ggplot(laborcandy, aes(x=pricekcal, y=kcalgramm)) +
   annotate("text", x = c(0.25), y = c(5.95), label = c("viel Geld,\nfür wenig kcal") , color="orange", size=5, fontface="bold", alpha=0.7) +
   annotate("text", x = c(0.4), y = c(5.7), label = c("viel Geld,\nfür viel kcal") , color="orange", size=5, fontface="bold", alpha=0.7) +
   annotate("text", x = c(0.5), y = c(4), label = c("wenig Geld,\nfür viel kcal") , color="orange", size=5, fontface="bold", alpha=0.7) +
-  geom_label(label=laborcandy$name, col="black") +
+  geom_label(label=laborcandy$productname, col="black", check_overlap = TRUE) +
   labs(x="kcal pro Gramm", y="ct(€) pro Gramm") +
   ggtitle("Wie viel Cents zahle ich für wie viele kcal?")
 
